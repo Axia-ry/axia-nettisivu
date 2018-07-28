@@ -1,8 +1,10 @@
 import React from 'react';
 
 const LogoLine = () => (
-  <div>
-    Logo to be here
+  <div className='flex-item flex-container justify-around'>
+    <div>
+      Logo to be here
+    </div>
   </div>
 )
 

@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom';
-import { Link } from 'react-router-dom'
+
+import NavigationLink from './NavigationLink';
 
 class NavigationBar extends Component {
   render = () => {
     return (
-      <div>
-        <div><Link to='/'>Etusivu</Link></div>
-        <div><Link to='/seura'>Seura</Link></div>
-        <div><a href=''>Nimenhuuto</a></div>
-        <div><a href=''>Ilmoittautuminen</a></div>
+      <div className='flex-container justify-around'>
+        <NavigationLink link='/' relative={true}>Etusivu</NavigationLink>
+        <NavigationLink link='/seura' relative={true}>Seura</NavigationLink>
+        <NavigationLink link='https://google.com' relative={false}>Nimenhuuto</NavigationLink>
+        <NavigationLink link='https://translate.google.fi/' relative={false}>Ilmoittautuminen</NavigationLink>
       </div>
     )
   }

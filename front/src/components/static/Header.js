@@ -4,7 +4,7 @@ import NavigationBar from './NavigationBar'
 import LogoLine from './LogoLine'
 
 const Header = () => (
-  <div>
+  <div className='header flex-container flex-vertical'>
     <LogoLine/>
     <NavigationBar/>
   </div>
