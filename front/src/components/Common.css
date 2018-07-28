@@ -47,3 +47,8 @@ body {
 .justify-around{
   justify-content: space-around;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

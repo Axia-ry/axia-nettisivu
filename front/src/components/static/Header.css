@@ -1,0 +1,39 @@
+.logo {
+  width: 120px;
+
+  margin-bottom: 5px;
+}
+
+.logo-bar {
+  background-color: black;
+}
+
+.navigation-bar {
+  height: 25px;
+  line-height: 25px;
+
+  background-color: #e2001a;
+  color: black;
+}
+
+.navigation-link.selected-link {
+  background-color: #4e6711;
+}
+
+.navigation-link:hover {
+  background-color: #cc0018
+}
+
+.navigation-link.selected-link:hover {
+  background-color: #43580e;
+}
+
+/*
+red: e2001a
+dark-red: #cc0018
+
+green: 4e6711
+dark-green: #43580e
+
+yellow: c19b00
+*/

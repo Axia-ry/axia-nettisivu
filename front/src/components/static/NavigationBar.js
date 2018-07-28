@@ -7,7 +7,7 @@ import NavigationLink from './NavigationLink';
 class NavigationBar extends Component {
   render = () => {
     return (
-      <div className='flex-container justify-around'>
+      <div className='flex-container justify-around navigation-bar'>
         <NavigationLink link='/' relative={true}>Etusivu</NavigationLink>
         <NavigationLink link='/seura' relative={true}>Seura</NavigationLink>
         <NavigationLink link='https://google.com' relative={false}>Nimenhuuto</NavigationLink>

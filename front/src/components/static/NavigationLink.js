@@ -9,10 +9,13 @@ class NavigationLink extends Component {
     const link = this.props.link
     const relative = this.props.relative
 
+    const active = this.props.location.pathname === link;
+    const innerClassName = 'full flex-container justify-around'
+
     return (
-      <div>
-        {!relative ? (<a target='_blank' rel='noopener noreferrer' href={link}>{this.props.children}</a>) 
-                  : (<Link to={link}>{this.props.children}</Link>)}
+      <div className={'flex-item navigation-link' + (active ? ' selected-link' : '')} >
+        {!relative ? (<a target='_blank' rel='noopener noreferrer' className={innerClassName} href={link}>{this.props.children}</a>) 
+                  : (<Link className={innerClassName} to={link}>{this.props.children}</Link>)}
       </div>
     )
   }
