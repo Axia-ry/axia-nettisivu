@@ -8,7 +8,7 @@ import MainPage from './MainPage'
 import SeuraPage from './SeuraPage'
 
 const Content = () => (
-  <div className='flex-item content'>
+  <div className='flex-item content scroll-vertical'>
     <Route exact path="/" render={() => (<MainPage/>)}/>
     <Route exact path="/seura" render={() => (<SeuraPage/>)}/>
   </div>
