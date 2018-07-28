@@ -11,7 +11,7 @@ class NavigationBar extends Component {
         <NavigationLink link='/' relative={true}>Etusivu</NavigationLink>
         <NavigationLink link='/seura' relative={true}>Seura</NavigationLink>
         <NavigationLink link='https://google.com' relative={false}>Nimenhuuto</NavigationLink>
-        <NavigationLink link='https://translate.google.fi/' relative={false}>Ilmoittautuminen</NavigationLink>
+        <NavigationLink link='https://translate.google.fi/' relative={false}>Liittyminen</NavigationLink>
       </div>
     )
   }
