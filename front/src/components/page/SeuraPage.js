@@ -3,18 +3,6 @@ import React, { Component } from 'react';
 import Text from '../common/Text'
 
 class SeuraPage extends Component{
-  constructor(props) {
-    super(props)
-
-    this.state = {test: ''}
-  }
-
-  onChange = event => {
-    const value = event.target.value
-    console.log(event.target.value === '\n')
-    this.setState({'test': value})
-  }
-
   render() {
     const mainText=`Lorem ipsum dolor sit amet, mei ad utinam instructior. Ex vim debitis docendi accusamus, sed ei vocent nusquam accommodare, dicant veniam deleniti usu ad. Has ei agam delenit. Usu mazim quaerendum eu, mei soluta tacimates disputationi at, sed ad timeam dignissim abhorreant. Est ad veritus invidunt, facilis sapientem mea et.
     Vim sumo electram accommodare ne, ne dico vidit maiorum ius. Ius quod velit noluisse ad, eu pertinacia cotidieque eos, zril ponderum praesent ad usu. Ex eam apeirian electram mediocrem. Eos id possim utroque invenire. Vivendo laboramus ei eum.    
@@ -25,9 +13,6 @@ class SeuraPage extends Component{
     return (
       <div>
         <Text text={mainText}/>
-        <form>
-          <textarea value={this.state.test} onChange={this.onChange}></textarea>
-        </form>
       </div>
     )
   }

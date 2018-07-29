@@ -5,9 +5,9 @@ import TeamInfo from './TeamInfo'
 const TeamList = ({teams}) => (
   <div>
     <h2>Joukkueet</h2>
-    <ul>
+    <div className='team-list'>
       {teams.map(team => (<TeamInfo team={team} key={team.Name}/>))}
-    </ul>
+    </div>
   </div>
 )
 

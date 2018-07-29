@@ -1,0 +1,13 @@
+.team-list {
+  margin: 8px 0;
+}
+
+.team-info {
+  border-top: 1px #19181c solid;
+  padding: 10px 0;
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+}
