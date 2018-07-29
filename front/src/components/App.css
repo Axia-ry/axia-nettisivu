@@ -3,9 +3,26 @@
 }
 
 .content {
-  margin: 8px;
+  padding: 0 8px;
+
+  background-color: #ffe6e8;
+  color: #19181c;
 }
 
 .footer {
   height: 60px;
+  
+  background-color: #e2001a;
 }
+
+/*
+red: e2001a
+dark-red: #cc0018
+
+green: 4e6711
+dark-green: #43580e
+
+yellow: c19b00
+
+black: 19181c
+*/

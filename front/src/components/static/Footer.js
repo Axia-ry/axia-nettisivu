@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div className='footer flex-container justify-around'>
-    <div>Footer to be</div>
+    <div className='flex-container flex-vertical justify-around'>Footer to be</div>
   </div>
 )
 

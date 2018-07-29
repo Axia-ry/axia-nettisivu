@@ -5,7 +5,7 @@
 }
 
 .logo-bar {
-  background-color: black;
+  background-color: #19181c;
 }
 
 .navigation-bar {
@@ -27,13 +27,3 @@
 .navigation-link.selected-link:hover {
   background-color: #43580e;
 }
-
-/*
-red: e2001a
-dark-red: #cc0018
-
-green: 4e6711
-dark-green: #43580e
-
-yellow: c19b00
-*/
