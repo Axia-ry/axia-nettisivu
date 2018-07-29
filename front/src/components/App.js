@@ -18,8 +18,8 @@ import Text from '../models/Text'
 class App extends Component {
   componentDidMount() {
     this.props.initTeams([
-      new Team('Axia 04', 'Martti', 'Maanantai', '/images/logo.png'), 
-      new Team('Axia 08', 'Maija', 'Tiistai', '/images/logo.png')
+      new Team('Axia 04', 'Martti', 'Maanantai', '/images/logo.gif'), 
+      new Team('Axia 08', 'Maija', 'Tiistai', '/images/logo.gif')
     ])
 
     this.props.initTexts([
