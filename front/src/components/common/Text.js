@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
 
 class Text extends Component{
   render() {
-    const paragraphs = this.props.text.split('\n')
+    const text = this.props.textLookup[this.props.location]
+    const paragraphs = text == null
+      ? []
+      : text.split('\n')
 
     return (
       <div>
@@ -12,4 +16,8 @@ class Text extends Component{
   }
 }
 
-export default Text
+const mapStateToProps = state => ({
+  textLookup: state.texts
+})
+
+export default connect(mapStateToProps)(Text)
