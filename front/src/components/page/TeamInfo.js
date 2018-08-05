@@ -4,7 +4,7 @@ const TeamInfo = ({team}) => (
   <div className='flex-container team-info'>
     <div className='flex-item'>
       <h3>{team.Name}</h3>
-      <div>Valmentaja: {team.Coach}</div>
+      <div>{team.Coach}</div>
       <div>Harjoitusaika: {team.PracticeTime}</div>
     </div>
     <div>

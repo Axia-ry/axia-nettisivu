@@ -10,7 +10,7 @@ class NavigationBar extends Component {
       <div className='flex-container justify-around navigation-bar'>
         <NavigationLink link='/' relative={true}>Etusivu</NavigationLink>
         <NavigationLink link='/seura' relative={true}>Seura</NavigationLink>
-        <NavigationLink link='https://google.com' relative={false}>Nimenhuuto</NavigationLink>
+        <NavigationLink link='https://nimenhuuto.com/users/sessions/new' relative={false}>Nimenhuuto</NavigationLink>
         <NavigationLink link='https://translate.google.fi/' relative={false}>Liittyminen</NavigationLink>
       </div>
     )
