@@ -1,4 +1,4 @@
-import AxiosService from "./axiosServce";
+import AxiosService from "./AxiosServce";
 
 export default class TextService extends AxiosService {
   constructor() {

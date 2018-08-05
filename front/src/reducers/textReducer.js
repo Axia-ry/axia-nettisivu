@@ -1,4 +1,4 @@
-import TextService from '../services/textService'
+import TextService from '../services/TextService'
 const service = new TextService()
 
 const initialState = {}
