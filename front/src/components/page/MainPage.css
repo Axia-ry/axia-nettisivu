@@ -8,6 +8,6 @@
 }
 
 .team-image {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  max-width: 300px;
 }
