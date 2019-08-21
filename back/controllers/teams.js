@@ -18,7 +18,7 @@ teamsRouter.get('/', (request, response) => {
       Name: 'AxiA 10 (ikäluokat 2010-2012)',  
       PracticeTime: 'Pe klo 16.30 - 17.30 , su klo 13.30 - 15 Kellokosken Woima -sali', 
       ImageLink: '/images/logo.gif'
-    }
+    },
     {
       Name: 'AxiA kerhot ',  
       PracticeTime: 'Pe klo 16.30 Kellokosken Woima -sali, Ti klo 16.30 Paijalan koulu', 
