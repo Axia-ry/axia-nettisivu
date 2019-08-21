@@ -6,18 +6,17 @@ textsRouter.get('/', (request, response) => {
     },
     {Location: 'seuraText', Text: `AxiA ry . Perustettu 2014 . LY-tunnus 2745147-7
 
-    Johtokunta 2018:
+    Johtokunta 2019:
     
     Jukka Klint puheenjohtaja
-    Ismo Liljendahl sihteeri
-    Tommi Forss jäsen
+    Tommi Forss sihteeri
+    Teemu Leppälahti jäsen
     
     Rahastonhoitajat:
     
     Camilla Klint Emoseura
     Kari Sillman 04-joukkue
-    Laura Raitala oto 08-joukkue
-    Tiia Sarvasilta 09-joukkue
+    Tiia Sarvasilta 08-joukkue
     
     Tilintarkastus:
     
