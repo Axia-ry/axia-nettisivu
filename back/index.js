@@ -3,16 +3,12 @@ const express = require('express')
 const app = express()
 //const bodyParser = require('body-parser')
 const cors = require('cors')
-const mongoose = require('mongoose')
 
 const config = require('./utils/config')
 //const getAuthorizationToken = require('./utils/middleware')
 
 const textsRouter = require('./controllers/texts')
 const teamsRouter = require('./controllers/teams')
-
-mongoose.connect(config.mongoUrl)
-mongoose.Promise = global.Promise
 
 app.use(express.static('build'))
 app.use(cors())
@@ -28,7 +24,6 @@ server.listen(config.port, () => {
 })
 
 server.on('close', () => {
-  mongoose.connection.close()
 })
 
 module.exports = {
