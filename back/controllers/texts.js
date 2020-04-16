@@ -2,7 +2,11 @@ const textsRouter = require('express').Router()
 
 textsRouter.get('/', (request, response) => {
   response.json([
-    {Location: 'mainText', Text: "AxiA ry on tuusulalainen salibandyseura. Seuran tavoitteena on tarjota harraste - ja kilpasarja joukkuetoimintaa eri ikäisille. Pelaamme Salibandyliiton Etelä-Suomen sarjoissa. Myös lasten vanhemmat on huomioitu toiminnassa."
+    {Location: 'mainText', Text: `Axia ry virallinen kevätkokous 2020 ja päätös seuran purkamisesta
+
+    Paikka : Pellonpää 1 Kellokoski
+    
+    Aika : to 28.5.2020 klo 18 -20`
     },
     {Location: 'seuraText', Text: `AxiA ry . Perustettu 2014 . LY-tunnus 2745147-7
 
