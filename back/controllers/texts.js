@@ -2,7 +2,7 @@ const textsRouter = require('express').Router()
 
 textsRouter.get('/', (request, response) => {
   response.json([
-    {Location: 'mainText', Text: `Axia ry virallinen kevätkokous 2020 ja päätös seuran purkamisesta
+    {Location: 'mainText', Text: `Axia ry virallinen kevätkokous 2020 ja päätös joukkueiden toiminnan lopettamiseksi ja varojen jakamiseksi
 
     Paikka : Pellonpää 1 Kellokoski
     
