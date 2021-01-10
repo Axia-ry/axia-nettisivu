@@ -2,30 +2,28 @@ const textsRouter = require('express').Router()
 
 textsRouter.get('/', (request, response) => {
   response.json([
-    {Location: 'mainText', Text: `Axia ry virallinen kevätkokous 2020 ja päätös joukkueiden toiminnan lopettamiseksi ja varojen jakamiseksi
+    {Location: 'mainText', Text: `Axia ry on kerhotoimintaan keskittyvä tuusulalainen seura. 
 
-    Paikka : Pellonpää 1 Kellokoski
-    
-    Aika : to 28.5.2020 klo 18 -20`
+    Seura järjestää:
+    - urheilukerhoja
+    - robotiikan kilpailukerhoja
+    - ohjelmoinnin kerhoja ja koulutusta eri ohjelmointivälineillä
+    - kesäleirejä
+    `
     },
     {Location: 'seuraText', Text: `AxiA ry . Perustettu 2014 . LY-tunnus 2745147-7
 
-    Johtokunta 2020:
+    Johtokunta 2021:
+    Jukka Klint puheenjohtaja
+    Mira Ruohonen sihteeri
+    Kati Korhonen jäsen
 
-    Miro Ruotsalainen puheenjohtaja
-    Laura Raitala sihteeri
-    Tommi Forss jäsen
-
-    Rahastonhoitajat:
-
-    Jukka Klint Emoseura
-    Kari Sillman 04-joukkue
-    Tiia Sarvasilta 08-joukkue
-    Heli Kamila 10-joukkue
+    Rahastonhoitaja:
+    Camilla Klint 
 
     Tilintarkastus:
-
     Hellä Päiviö
+
     `},
     {
       Location: 'yhteistyoText', Text: `

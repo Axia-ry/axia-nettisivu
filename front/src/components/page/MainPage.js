@@ -15,6 +15,7 @@ class MainPage extends Component{
       <div>
         <Text location='mainText'/>
         <TeamList teams={teams}/>
+        <div>Muut kerhot ja kesätoiminta löytyy aina Liittyminen -välilehden ilmoittautumislinkistä.</div>
       </div>
     )
   }
